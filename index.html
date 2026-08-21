@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="description" content="Flex Box Learning">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/global.css" type="text/css">
     </head>
 
     <body>
@@ -12,45 +14,47 @@
         </header>
         
         <main>
-            <h2>Flex Box In a Column and Row</h2>
             <section>
-                    <div id="secOneDivWrap">
-                        <div style="background-color: red; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: blue; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: purple; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: yellow; width:150px; height:150px; border: 2px solid black"></div>
-                    </div>
+                <h2>Flex Box In a Column and Row with Space</h2>
+                <div id="secOneDivWrap">
+                    <div class="red square">1</div>
+                    <div class="blue square">2</div>
+                    <div class="purple square">3</div>
+                    <div class="yellow square">4</div>
+                </div>
             </section>
             
             <section>
-                <h2>Using Flex Box In Column Revers and Row</h2>
+                <h2>Using Flex Box In Column Reverse and Row with Space</h2>
                 <div id="secTwoDivWrap">
-                        <div style="background-color: red; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: blue; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: purple; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: yellow; width:150px; height:150px; border: 2px solid black"></div>
+                    <div class="red square">1</div>
+                    <div class="blue square">2</div>
+                    <div class="purple square">3</div>
+                    <div class="yellow square">4</div>
                 </div>
             </section>
 
-            <section>
-                <h2>Using Flex Box Row and then Column</h2>
-                <div id="secThreeDivWrap">
-                        <div style="background-color: red; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: blue; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: purple; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: yellow; width:150px; height:150px; border: 2px solid black"></div>
-                </div>
-            </section>
+            <div id="displayWrapper">
+                <section class="columnWrappers">
+                    <h2>Using Flex Box Row and then Column with Space</h2>
+                    <div id="secThreeDivWrap">
+                        <div class="red square">1</div>
+                        <div class="blue square">2</div>
+                        <div class="purple square">3</div>
+                        <div class="yellow square">4</div>
+                    </div>
+                </section>
 
-            <section>
-                <h2>Using Flex Box Row and then Column Reverse</h2>
-                <div id="secFourDivWrap">
-                        <div style="background-color: red; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: blue; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: purple; width:150px; height:150px; border: 2px solid black"></div>
-                        <div style="background-color: yellow; width:150px; height:150px; border: 2px solid black"></div>
-                </div>
-            </section>
+                <section class="columnWrappers">
+                    <h2>Using Flex Box Row and then Column Reverse with Space</h2>
+                    <div id="secFourDivWrap">
+                        <div class="red square">1</div>
+                        <div class="blue square">2</div>
+                        <div class="purple square">3</div>
+                        <div class="yellow square">4</div>
+                    </div>
+                </section>
+            </div>
         </main>
     </body>
 </html>

@@ -1,0 +1,92 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+h2 {
+    color: darkcyan;
+}
+
+section {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    background-color: darkred;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.yellow {
+    background-color: goldenrod;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 4px;
+    color: black;
+    align-content: center;
+    font-size: 24px;
+}
+
+#secOneDivWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#secTwoDivWrap {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#displayWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columnWrappers {
+    width: 48%;
+}
+
+#secThreeDivWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#secFourDivWrap {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
